@@ -1,29 +1,10 @@
 
-# eBooki - eBook Reader all format
-librera fork
+# eBooki - eBook Reader all format (librera fork)
 
-Librera Reader is an e-book reader for Android devices; 
+eBooki Reader is an e-book reader for Android devices; 
 it supports the following formats: PDF, EPUB, MOBI, DjVu, FB2, TXT, RTF, AZW, AZW3, HTML, CBZ, CBR, and OPDS Catalogs
 
-Web: [http://librera.mobi/](http://librera.mobi/)
-
-Android Play market apps:
-
-[Librera](https://play.google.com/store/apps/details?id=com.foobnix.pdf.reader)
-
-[Librera PRO](https://play.google.com/store/apps/details?id=com.foobnix.pro.pdf.reader)
-
-[Arhive .apk](http://archive.librera.mobi)
-
-[Beta(latest) .apk](http://beta.librera.mobi)
-
-Application fonts (**fonts.zip** download to internal sd card, to [Downloads] folder)
-[link1](https://github.com/foobnix/LirbiReader/tree/master/Builder/fonts) 
-[link2](https://www.dropbox.com/home/FREE_PDF_APK/testing)
-
-[Telegram](https://t.me/LibreraReader)
-
-## Build Librera
+## Build eBooki
 
 ~~~~
 sudo apt-get install mesa-common-dev libxcursor-dev  libxrandr-dev libxinerama-dev pkg-config
@@ -32,11 +13,11 @@ sudo apt-get install mesa-common-dev libxcursor-dev  libxrandr-dev libxinerama-d
 ./gradlew assebleLibrera
 ~~~~
 
-## Librera depends on
+## eBooki depends on
 
 MuPDF - (AGPL License) https://mupdf.com/downloads/archive/ (mupdf-1.11-source.tar.xz)
 
-MuPDF changed source ./LibreraReader/Builder/jni-1.11/
+MuPDF changed source ./eBookiReader/Builder/jni-1.11/
 
 * EbookDroid
 * djvulibre
@@ -56,7 +37,7 @@ MuPDF changed source ./LibreraReader/Builder/jni-1.11/
 * rtfparserkit
 * java-mammoth
 
-Librera is distributed under the GPL
+eBooki is distributed under the GPL
 
 ## License
 
