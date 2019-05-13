@@ -13,8 +13,8 @@
         android:orientation="vertical"
         android:padding="3dip">
 
-
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/section9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,6 +46,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -314,6 +315,7 @@
 
 
         <LinearLayout
+            android:visibility="gone"
             android:id="@+id/section8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -352,6 +354,7 @@
 
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/syncInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -360,6 +363,7 @@
 
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical">
@@ -1099,6 +1103,7 @@
             android:text="@string/borders_and_shadow_around_the_book_cover" />
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/section7"
             style="@style/textLinkWhite"
             android:layout_width="match_parent"
@@ -1107,12 +1112,14 @@
             android:text="@string/tabs_position" />
 
         <CheckBox
+            android:visibility="gone"
             android:id="@+id/isshowPrefAsMenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/show_preferences_tab_in_the_left_menu" />
 
         <com.jmedeisis.draglinearlayout.DragLinearLayout
+            android:visibility="gone"
             android:id="@+id/dragLinearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -1124,6 +1131,7 @@
         </com.jmedeisis.draglinearlayout.DragLinearLayout>
 
         <LinearLayout
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">

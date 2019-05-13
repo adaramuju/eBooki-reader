@@ -6,14 +6,12 @@ ext {
     db = Integer.parseInt(appDB)
     println ""
     println "Version: [" + versionNumber + " - " + codeNumber + "]"
-    
-    
 }
 
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.foobnix.pdf.reader"
+        applicationId "net.autogroup.ebooki"
         minSdkVersion 14
         targetSdkVersion 27
         versionCode codeNumber
@@ -32,27 +30,15 @@ android {
 
     }
 
-    signingConfigs {
-        release {
-            storeFile file(RELEASE_STORE_FILE)
-            storePassword RELEASE_STORE_PASSWORD
-            keyAlias RELEASE_KEY_ALIAS
-            keyPassword RELEASE_KEY_PASSWORD
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
             buildConfigField "boolean", "LOG", "true"
         }
         debug {
             buildConfigField "boolean", "LOG", "true"
         }
-
-
     }
     buildToolsVersion '28.0.3'
 
@@ -77,12 +63,12 @@ android {
     productFlavors {
         beta {
             dimension "version"
-            applicationId "com.foobnix.pdf.reader"
+            applicationId "net.autogroup.ebooki"
             manifestPlaceholders = [
                     appName       : "Beta " + versionNumber,
                     appIcon       : "@mipmap/icon_pdf_reader",
                     appRoundIcon  : "@mipmap/icon_pdf_reader",
-                    appGdriveKey  : "961762082517-dgsen03hb73s6oh59ovivcansatu16lc.apps.googleusercontent.com",
+                    appGdriveKey  : "",
                     admobAppId    : "ca-app-pub-8347903083053959~8769894873",
                     admobBannerId : "ca-app-pub-8347903083053959/4166397275",
                     admobFullId   : "ca-app-pub-8347903083053959/2769081274"
@@ -90,107 +76,24 @@ android {
             buildConfigField "boolean", "IS_BETA", "true"
             buildConfigField "boolean", "IS_BETA_SEND_REPORTS", "true"
         }
-        librera {
+        ebooki {
             dimension "version"
-            applicationId "com.foobnix.pdf.reader"
+            applicationId "net.autogroup.ebooki"
             manifestPlaceholders = [
-                    appName     : "Librera Reader",
+                    appName     : "EBooki",
                     appIcon     : "@mipmap/icon_pdf_reader",
                     appRoundIcon: "@mipmap/icon_pdf_reader",
-                    appGdriveKey  : "961762082517-dgsen03hb73s6oh59ovivcansatu16lc.apps.googleusercontent.com",
+                    appGdriveKey  : "",
                     admobAppId    : "ca-app-pub-8347903083053959~8769894873",
                     admobBannerId : "ca-app-pub-8347903083053959/4166397275",
                     admobFullId   : "ca-app-pub-8347903083053959/2769081274"
             ]
             buildConfigField "boolean", "IS_BETA", "false"
+            buildConfigField "boolean", "IS_BETA_SEND_REPORTS", "false"
         }
         pro {
             dimension "version"
-            applicationId "com.foobnix.pro.pdf.reader"
-            manifestPlaceholders = [
-                    appName     : "Librera PRO",
-                    appIcon     : "@mipmap/icon_pdf_pro",
-                    appRoundIcon: "@mipmap/icon_pdf_pro",
-                    appGdriveKey  : "961762082517-ej9mdc7bgp7jkd6hvbfimvda6vpi5p4t.apps.googleusercontent.com",
-                    admobAppId    : "",
-                    admobBannerId : "",
-                    admobFullId   : ""
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        pdf_classic {
-            dimension "version"
-            applicationId "classic.pdf.reader.viewer.djvu.epub.fb2.txt.mobi.book.reader.lirbi.libri"
-            manifestPlaceholders = [
-                    appName     : "PDF Reader",
-                    appIcon     : "@mipmap/icon_pdf_classic",
-                    appRoundIcon: "@mipmap/launcher_classic",
-                    appGdriveKey  : "961762082517-5825mr1t8duo7tlnkdr6itersmlreejq.apps.googleusercontent.com",
-                    admobAppId    : "ca-app-pub-8347903083053959~8457312875",
-                    admobBannerId : "ca-app-pub-8347903083053959/5364245672",
-                    admobFullId   : "ca-app-pub-8347903083053959/7763820878"
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        ebooka {
-            dimension "version"
-            applicationId "droid.reader.book.epub.mobi.pdf.djvu.fb2.txt.azw.azw3"
-            manifestPlaceholders = [
-                    appName     : "Ebooka Reader",
-                    appIcon     : "@mipmap/icon_pdf_droid",
-                    appRoundIcon: "@mipmap/launcher_droid",
-                    appGdriveKey  : "961762082517-3ud6u3hmjlbbpqdsqtk9md55o5jgkg41.apps.googleusercontent.com",
-                    admobAppId    : "ca-app-pub-8347903083053959~5153060505",
-                    admobBannerId : "ca-app-pub-8347903083053959/6159730856",
-                    admobFullId   : "ca-app-pub-8347903083053959/2346153515"
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        pdf_v2 {
-            dimension "version"
-            applicationId "pdf.pdf.reader"
-            manifestPlaceholders = [
-                    appName     : "PDF Reader",
-                    appIcon     : "@mipmap/icon_pdf_2",
-                    appRoundIcon: "@mipmap/launcher_pdf_v2",
-                    appGdriveKey  : "961762082517-eiun09s9u6vferhd9avnkjmgs7ob9tns.apps.googleusercontent.com",
-                    admobAppId    : "ca-app-pub-8347903083053959~5943988213",
-                    admobBannerId : "ca-app-pub-8347903083053959/6705625294",
-                    admobFullId   : "ca-app-pub-8347903083053959/1346267659"
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        tts_reader {
-            dimension "version"
-            applicationId "tts.reader"
-            manifestPlaceholders = [
-                    appName     : "TTS Reader",
-                    appIcon     : "@mipmap/icon_tts_reader_app",
-                    appRoundIcon: "@mipmap/launcher_tts_reader_app",
-                    appGdriveKey  : "961762082517-kaap4rki1p1vjdcd2jk5j8o8krckm24a.apps.googleusercontent.com",
-                    admobAppId    : "ca-app-pub-8347903083053959~1533135764",
-                    admobBannerId : "ca-app-pub-8347903083053959/2702801102",
-                    admobFullId   : "ca-app-pub-8347903083053959/4602986382"
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        epub_reader {
-            dimension "version"
-            applicationId "epub.reader"
-            manifestPlaceholders = [
-                    appName     : "Epub Reader",
-                    appIcon     : "@mipmap/icon_epub_reader",
-                    appRoundIcon: "@mipmap/launcher_epub_reader",
-                    appGdriveKey  : "961762082517-p6b2kqqimju6rlp314mu56lipvq2m68r.apps.googleusercontent.com",
-                    admobAppId    : "ca-app-pub-8347903083053959~8118779310",
-                    admobBannerId : "ca-app-pub-8347903083053959/1553370961",
-                    admobFullId   : "ca-app-pub-8347903083053959/6163356354"
-            ]
-            buildConfigField "boolean", "IS_BETA", "false"
-        }
-        fdroid {
-            dimension "version"
-            applicationId "com.foobnix.pro.pdf.reader"
+            applicationId "net.autogroup.ebooki.pro"
             manifestPlaceholders = [
                     appName     : "Librera PRO",
                     appIcon     : "@mipmap/icon_pdf_pro",
@@ -200,10 +103,9 @@ android {
                     admobBannerId : "",
                     admobFullId   : ""
             ]
-            versionNameSuffix '-fdroid'
             buildConfigField "boolean", "IS_BETA", "false"
+            buildConfigField "boolean", "IS_BETA_SEND_REPORTS", "false"
         }
-
     }
 
 
@@ -286,34 +188,17 @@ dependencies {
     //betaImplementation 'com.google.firebase:firebase-core:16+'
 
 
-
-    libreraImplementation 'com.google.firebase:firebase-ads:17+'
-    pdf_v2Implementation 'com.google.firebase:firebase-ads:17+'
-    ebookaImplementation 'com.google.firebase:firebase-ads:17+'
-    tts_readerImplementation 'com.google.firebase:firebase-ads:17+'
-    pdf_classicImplementation 'com.google.firebase:firebase-ads:17+'
-    epub_readerImplementation 'com.google.firebase:firebase-ads:17+'
-
-    libreraImplementation 'com.google.firebase:firebase-core:16+'
-    pdf_v2Implementation 'com.google.firebase:firebase-core:16+'
-    ebookaImplementation 'com.google.firebase:firebase-core:16+'
-    tts_readerImplementation 'com.google.firebase:firebase-core:16+'
-    pdf_classicImplementation 'com.google.firebase:firebase-core:16+'
-    epub_readerImplementation 'com.google.firebase:firebase-core:16+'
-
+    ebookiImplementation 'com.google.firebase:firebase-ads:17+'
+    betaImplementation 'com.google.firebase:firebase-ads:17+'
+    ebookiImplementation 'com.google.firebase:firebase-core:16+'
+    ebookiImplementation 'com.google.firebase:firebase-core:16+'
 
     proImplementation 'com.google.firebase:firebase-core:16+'
     proImplementation project(':pro')
-    fdroidImplementation project(':pro')
 
     proImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
     betaImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    libreraImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    pdf_v2Implementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    ebookaImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    tts_readerImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    pdf_classicImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
-    epub_readerImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
+    ebookiImplementation 'com.cloudrail:cloudrail-si-android:2.22.4'
 }
 
 

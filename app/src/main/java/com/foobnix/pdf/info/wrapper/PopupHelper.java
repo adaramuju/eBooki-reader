@@ -46,7 +46,7 @@ public class PopupHelper {
 
     public static void addPROIcon(final PopupMenu menu, final Context c) {
         if (!AppsConfig.checkIsProInstalled(c)) {
-            menu.getMenu().add("Librera PRO").setIcon(R.mipmap.icon_pdf_pro).setOnMenuItemClickListener(new OnMenuItemClickListener() {
+            menu.getMenu().add("eBooki PRO").setIcon(R.mipmap.icon_pdf_pro).setOnMenuItemClickListener(new OnMenuItemClickListener() {
 
                 @Override
                 public boolean onMenuItemClick(MenuItem item) {
@@ -92,7 +92,7 @@ public class PopupHelper {
 
             for (int i = 0; i < menu.getMenu().size(); i++) {
                 MenuItem item = menu.getMenu().getItem(i);
-                if (item.getTitle().toString().contains("Librera")) {
+                if (item.getTitle().toString().contains("eBooki")) {
                     continue;
                 }
                 Drawable icon = item.getIcon().getConstantState().newDrawable();

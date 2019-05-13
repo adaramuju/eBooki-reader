@@ -96,7 +96,7 @@ public class BooksService extends IntentService {
             //TESET
 
 
-            File oldConfig = new File(AppProfile.DOWNLOADS_DIR, "Librera/backup-8.0.json");
+            File oldConfig = new File(AppProfile.DOWNLOADS_DIR, "eBooki/backup-8.0.json");
             if (!oldConfig.exists()) {
                 oldConfig.getParentFile().mkdirs();
                 AppDB.get().open(this, AppDB.DB_NAME);

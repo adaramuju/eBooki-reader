@@ -30,7 +30,7 @@ public class ExportConverter {
 
     public static void copyPlaylists() {
         File syncDir = new File(AppProfile.SYNC_FOLDER_PROFILE, "playlists");
-        File oldDir = new File(AppProfile.DOWNLOADS_DIR, "Librera/Playlist");
+        File oldDir = new File(AppProfile.DOWNLOADS_DIR, "eBooki/Playlist");
         File[] list = oldDir.listFiles();
 
         if (list != null) {

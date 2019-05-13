@@ -111,8 +111,8 @@ public class CalirbeExtractor {
                                 LOG.e(e);
                             }
                         }
-                        if ("librera:user_metadata:#genre".equals(attrName)) {
-                            LOG.d("librera-userGenre", attrContent);
+                        if ("ebooki:user_metadata:#genre".equals(attrName)) {
+                            LOG.d("ebooki-userGenre", attrContent);
                             try {
                                 meta.setGenre(attrContent);
                             } catch (Exception e) {

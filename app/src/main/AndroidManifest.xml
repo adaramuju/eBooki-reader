@@ -30,13 +30,13 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="${admobAppId}" />
         <meta-data
-            android:name="librera.ADMOB_BANNER_ID"
+            android:name="ebooki.ADMOB_BANNER_ID"
             android:value="${admobBannerId}" />
         <meta-data
-            android:name="librera.ADMOB_FULLSCREEN_ID"
+            android:name="ebooki.ADMOB_FULLSCREEN_ID"
             android:value="${admobFullId}" />
         <meta-data
-            android:name="librera.GOOGLE_DRIVE_KEY"
+            android:name="ebooki.GOOGLE_DRIVE_KEY"
             android:value="${appGdriveKey}" />
 
         <provider
@@ -228,7 +228,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="${applicationId}" />
-                <data android:scheme="librera" />
+                <data android:scheme="ebooki" />
             </intent-filter>
         </activity>
 

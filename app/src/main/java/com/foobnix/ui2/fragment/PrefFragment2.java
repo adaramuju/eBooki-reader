@@ -17,6 +17,7 @@ import android.support.v4.util.Pair;
 import android.support.v4.widget.DrawerLayout;
 import android.text.Html;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -268,8 +269,6 @@ public class PrefFragment2 extends UIFragment {
 
             AlertDialogs.showViewDialog(getActivity(), null, isSyncManualOnly, isSyncWifiOnly, isShowSyncWheel);
         });
-
-
         updateSyncInfo(null);
 
 
@@ -290,8 +289,8 @@ public class PrefFragment2 extends UIFragment {
                 if (getActivity() == null) {
                     return;
                 }
-                AlertDialogs.showDialog(getActivity(), getActivity().getString(R.string.you_neet_to_apply_the_new_settings), getString(R.string.ok), new Runnable() {
 
+                AlertDialogs.showDialog(getActivity(), getActivity().getString(R.string.you_neet_to_apply_the_new_settings), getString(R.string.ok), new Runnable() {
                     @Override
                     public void run() {
                         inflate.findViewById(R.id.tabsApply).performClick();
@@ -321,11 +320,12 @@ public class PrefFragment2 extends UIFragment {
                     ((TextView) library.findViewById(R.id.text1)).setText(tab.getName());
                     ((CheckBox) library.findViewById(R.id.isVisible)).setChecked(tab.isVisible());
                     ((CheckBox) library.findViewById(R.id.isVisible)).setOnCheckedChangeListener(new OnCheckedChangeListener() {
-
                         @Override
                         public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                            handler.removeCallbacks(ask2);
-                            handler.postDelayed(ask2, timeout);
+
+                            //Log.d("MUNYUK", "1");
+                            //handler.removeCallbacks(ask2);
+                            //handler.postDelayed(ask2, timeout);
 
                             if(tab == UITab.PrefFragment){
                                 isshowPrefAsMenu.setChecked(!isChecked);
@@ -364,11 +364,12 @@ public class PrefFragment2 extends UIFragment {
             }
         });
 
+        /*
         isshowPrefAsMenu.setChecked(AppState.get().tabsOrder7.contains(UITab.PrefFragment.index + "#0"));
         isshowPrefAsMenu.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                Log.d("MUNYUK", "3");
                 handler.removeCallbacksAndMessages(ask2);
                 handler.postDelayed(ask2, timeout);
                 if (isChecked) {
@@ -379,6 +380,7 @@ public class PrefFragment2 extends UIFragment {
                 dragLinear.run();
             }
         });
+        */
 
         TxtUtils.underlineTextView(inflate.findViewById(R.id.tabsDefaul)).setOnClickListener(new OnClickListener() {
 

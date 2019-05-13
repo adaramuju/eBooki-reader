@@ -52,7 +52,7 @@ public class ADS {
             }
             adView = new AdView(a);
             adView.setAdSize(AdSize.SMART_BANNER);
-            adView.setAdUnitId(Apps.getMetaData(a, "librera.ADMOB_BANNER_ID"));
+            adView.setAdUnitId(Apps.getMetaData(a, "ebooki.ADMOB_BANNER_ID"));
 
             adView.loadAd(adRequest);
 

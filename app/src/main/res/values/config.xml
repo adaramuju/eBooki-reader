@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name_pro">Librera PRO</string>
+    <string name="app_name_pro">EBooki PRO</string>
 
-	<string name="my_email">librera.reader@gmail.com</string>
-    <string name="my_site"><![CDATA[<u>http://librera.mobi</u>]]></string>
+	<string name="my_email">adaramuju@gmail.com</string>
+    <string name="my_site"><![CDATA[<u>https://github.com/adaramuju</u>]]></string>
     
     <string name="one_drive">One Drive</string>
     

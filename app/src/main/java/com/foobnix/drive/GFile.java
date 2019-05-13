@@ -193,7 +193,7 @@ public class GFile {
 
     public static File findLibreraSync() throws Exception {
 
-        final List<File> files = exeQF("name = 'Librera' and 'root' in parents and mimeType = '%s' and trashed = false", MIME_FOLDER);
+        final List<File> files = exeQF("name = 'eBooki' and 'root' in parents and mimeType = '%s' and trashed = false", MIME_FOLDER);
         debugPrint(files);
         if (files.size() > 0) {
             return files.get(0);
@@ -468,9 +468,9 @@ public class GFile {
             LOG.d(TAG, "sycnronizeAll", "begin");
             if (TxtUtils.isEmpty(BookCSS.get().syncRootID)) {
                 File syncRoot = GFile.findLibreraSync();
-                LOG.d(TAG, "findLibreraSync finded", syncRoot);
+                LOG.d(TAG, "findeBookiSync finded", syncRoot);
                 if (syncRoot == null) {
-                    syncRoot = GFile.createFolder("root", "Librera");
+                    syncRoot = GFile.createFolder("root", "eBooki");
                 }
                 BookCSS.get().syncRootID = syncRoot.getId();
                 AppProfile.save(c);

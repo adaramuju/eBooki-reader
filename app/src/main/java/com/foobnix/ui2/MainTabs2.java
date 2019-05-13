@@ -279,11 +279,15 @@ public class MainTabs2 extends AdsFragmentActivity {
         tabFragments = new ArrayList<UIFragment>();
 
         try {
+            LOG.d("TABBB", "TRY");
+            AppState.get().tabsOrder7 = AppState.DEFAULTS_TABS_ORDER;
+
             for (UITab tab : UITab.getOrdered(AppState.get().tabsOrder7)) {
                 if (tab.isVisible()) {
                     tabFragments.add(tab.getClazz().newInstance());
                 }
             }
+
             if (tabFragments.size() == 0) {
                 AppState.get().tabsOrder7 = AppState.DEFAULTS_TABS_ORDER;
                 for (UITab tab : UITab.getOrdered(AppState.get().tabsOrder7)) {
@@ -462,6 +466,7 @@ public class MainTabs2 extends AdsFragmentActivity {
 
         }
 
+        /*
         try {
             LOG.d("checkForNewBeta");
             if (AppState.get().isShowWhatIsNewDialog) {
@@ -470,6 +475,8 @@ public class MainTabs2 extends AdsFragmentActivity {
         } catch (Exception e) {
             LOG.e(e);
         }
+        */
+
         if (Android6.canWrite(this)) {
             FontExtractor.extractFonts(this);
         }

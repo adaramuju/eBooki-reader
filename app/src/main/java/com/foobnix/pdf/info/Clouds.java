@@ -40,7 +40,7 @@ import java.util.List;
 public class Clouds {
 
     private static final String TOKEN_EMPTY = "[{}]";
-    public static final String LIBRERA_SYNC_ONLINE_FOLDER = "/Librera.Cloud";
+    public static final String LIBRERA_SYNC_ONLINE_FOLDER = "/eBooki.Cloud";
     public static final String PREFIX_CLOUD = "cloud-";
     public static final String PREFIX_CLOUD_DROPBOX = PREFIX_CLOUD + "dropbox:";
     public static final String PREFIX_CLOUD_GDRIVE = PREFIX_CLOUD + "gdrive:";
@@ -90,7 +90,7 @@ public class Clouds {
     }
 
     public static boolean isCloudImage(String path) {
-        return path.contains("Librera.Cloud");
+        return path.contains("eBooki.Cloud");
     }
 
     public static void runSync(Activity a) {

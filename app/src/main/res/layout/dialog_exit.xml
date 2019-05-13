@@ -7,7 +7,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:gravity="center|left"
         android:padding="10dip"
         android:text="@string/exit_application_question"
         android:textSize="20sp" />
@@ -33,13 +34,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:textStyle="bold"
                 android:gravity="center_vertical"
-                android:paddingLeft="10dip"
+                android:paddingLeft="10dp"
                 android:singleLine="true"
                 android:text="@string/message"
-                android:textColor="@color/white" >
-            </TextView>
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
 
             <ImageView
                 android:id="@+id/onClose"
@@ -55,11 +55,11 @@
             style="@style/textLink"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dip"
+            android:padding="10dp"
             android:singleLine="false"
             android:text="@string/ask_rate_us1"
             android:textColor="@color/white" />
-        
+
            <TextView
             android:id="@+id/onRateUs"
             style="@style/textLink"

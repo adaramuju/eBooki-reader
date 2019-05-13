@@ -18,7 +18,7 @@ public class TestActivity extends Activity {
 
         AdView adView = new AdView(this);
         adView.setAdSize(AdSize.SMART_BANNER);
-        adView.setAdUnitId(Apps.getMetaData(this, "librera.ADMOB_BANNER_ID"));
+        adView.setAdUnitId(Apps.getMetaData(this, "ebooki.ADMOB_BANNER_ID"));
 
 
 

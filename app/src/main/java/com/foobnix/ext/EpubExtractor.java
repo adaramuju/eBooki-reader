@@ -276,8 +276,8 @@ public class EpubExtractor extends BaseExtractor {
                                         LOG.e(e);
                                     }
                                 }
-                                if ("librera:user_metadata:#genre".equals(nameAttr)) {
-                                    LOG.d("librera-userGenre", value);
+                                if ("ebooki:user_metadata:#genre".equals(nameAttr)) {
+                                    LOG.d("ebooki-userGenre", value);
                                     try {
                                         genre = value;
                                     } catch (Exception e) {

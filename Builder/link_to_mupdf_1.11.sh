@@ -6,11 +6,11 @@ cd mupdf-1.11
 make
 cd ..
 
-MUPDF_ROOT=/home/ivan-dev/git/LibreraReader/Builder/mupdf-1.11
+MUPDF_ROOT=/home/oji/AndroidStudioProjects/eBooki/Builder/mupdf-1.11
 
 MUPDF_JAVA=$MUPDF_ROOT/platform/java
 
-LIBS=/home/ivan-dev/git/LibreraReader/app/src/main/jniLibs
+LIBS=/home/oji/AndroidStudioProjects/eBooki/app/src/main/jniLibs
 
 rm -rf  $MUPDF_JAVA/jni
 cp -rRp jni-1.11 $MUPDF_JAVA/jni

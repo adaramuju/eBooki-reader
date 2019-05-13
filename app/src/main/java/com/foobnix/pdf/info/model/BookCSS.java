@@ -37,18 +37,18 @@ import java.util.Locale;
 public class BookCSS {
     /// PATHS
 
-    public static final String LIBRERA_CLOUD_DROPBOX = "Librera.Cloud-Dropbox";
-    public static final String LIBRERA_CLOUD_GOOGLEDRIVE = "Librera.Cloud-GoogleDrive";
-    public static final String LIBRERA_CLOUD_ONEDRIVE = "Librera.Cloud-OneDrive";
+    public static final String LIBRERA_CLOUD_DROPBOX = "eBooki.Cloud-Dropbox";
+    public static final String LIBRERA_CLOUD_GOOGLEDRIVE = "eBooki.Cloud-GoogleDrive";
+    public static final String LIBRERA_CLOUD_ONEDRIVE = "eBooki.Cloud-OneDrive";
 
     public String searchPaths;
-    public String cachePath = new File(AppProfile.DOWNLOADS_DIR, "Librera/Cache").getPath();
-    public String downlodsPath = new File(AppProfile.DOWNLOADS_DIR, "Librera/Download").getPath();
-    public String ttsSpeakPath = new File(AppProfile.DOWNLOADS_DIR, "Librera/TTS").getPath();
-    public String backupPath = new File(AppProfile.DOWNLOADS_DIR, "Librera/Backup").getPath();
-    public String syncDropboxPath = new File(AppProfile.DOWNLOADS_DIR, "Librera/" + LIBRERA_CLOUD_DROPBOX).getPath();
-    public String syncGdrivePath = new File(AppProfile.DOWNLOADS_DIR, "Librera/" + LIBRERA_CLOUD_GOOGLEDRIVE).getPath();
-    public String syncOneDrivePath = new File(AppProfile.DOWNLOADS_DIR, "Librera/" + LIBRERA_CLOUD_ONEDRIVE).getPath();
+    public String cachePath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/Cache").getPath();
+    public String downlodsPath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/Download").getPath();
+    public String ttsSpeakPath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/TTS").getPath();
+    public String backupPath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/Backup").getPath();
+    public String syncDropboxPath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/" + LIBRERA_CLOUD_DROPBOX).getPath();
+    public String syncGdrivePath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/" + LIBRERA_CLOUD_GOOGLEDRIVE).getPath();
+    public String syncOneDrivePath = new File(AppProfile.DOWNLOADS_DIR, "eBooki/" + LIBRERA_CLOUD_ONEDRIVE).getPath();
 
 
     public static String DEFAULT_FOLDER = new File(AppProfile.SYNC_FOLDER_ROOT, "Fonts").getPath();

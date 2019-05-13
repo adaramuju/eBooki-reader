@@ -473,13 +473,13 @@ public class PageImaveView extends View {
                             }
                         }
 
-                        boolean isBrightness = brightnessHelper.onActionMove(event);
-                        if (isBrightness) {
-                            isIgronerClick = true;
-                            isMoveNextPrev = 0;
-                        }
+                        //boolean isBrightness = brightnessHelper.onActionMove(event);
+                        //if (isBrightness) {
+                        //    isIgronerClick = true;
+                        //    isMoveNextPrev = 0;
+                        //}
 
-                        if (!isBrightness && isReadyForMove && !AppTemp.get().isLocked) {
+                        if (isReadyForMove && !AppTemp.get().isLocked) {
 
                             imageMatrix().postTranslate(dx, dy);
 

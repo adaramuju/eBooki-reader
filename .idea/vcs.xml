@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/curl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/freetype" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/harfbuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/jbig2dec" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/libjpeg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/mujs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/openjpeg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Builder/mupdf-1.11/thirdparty/zlib" vcs="Git" />
   </component>
 </project>

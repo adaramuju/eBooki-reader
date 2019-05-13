@@ -54,7 +54,7 @@ public class MyADSProvider {
             public void run() {
                 try {
                         mInterstitialAd = new InterstitialAd(a);
-                        mInterstitialAd.setAdUnitId(Apps.getMetaData(a, "librera.ADMOB_FULLSCREEN_ID"));
+                        mInterstitialAd.setAdUnitId(Apps.getMetaData(a, "ebooki.ADMOB_FULLSCREEN_ID"));
                         mInterstitialAd.setAdListener(new AdListener() {
                             @Override
                             public void onAdClosed() {

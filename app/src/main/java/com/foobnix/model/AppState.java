@@ -162,16 +162,16 @@ public class AppState {
 
             // "http://opds.litres.ru,Litres,Библиотека электронных
             // книг,assets://opds/litres.ico;" + //
-            "https://books.fbreader.org/opds,FBReader,My personal catalogue,assets://opds/fbreader.png;" + //
+            //"https://books.fbreader.org/opds,FBReader,My personal catalogue,assets://opds/fbreader.png;" + //
             // "https://www.gitbook.com/api/opds/catalog.atom,GitBook,Public books are
             // always free.,assets://opds/gitbook.png;" + //
             "http://www.feedbooks.com/publicdomain/catalog.atom,Feedbooks,Free ebooks,assets://opds/feedbooks.ico;" + //
             "http://m.gutenberg.org/ebooks.opds/,Project Gutenberg,Free ebooks since 1971,assets://opds/gutenberg.png;" + //
             // "http://manybooks.net/opds/index.php,Manybooks,Online Catalog for
             // Manybooks.net,assets://opds/manybooks.png;" + //
-            "https://www.smashwords.com/atom,Smashwords,Online Catalog,assets://opds/smashwords.png;" + //
-            "http://samlib.ru,Журнал Самиздат (samlib.ru),Cовременная литература при библиотеке Мошкова,assets://opds/web.png;" + //
-            SamlibOPDS.ROOT_AWARDS + ",Usefull links: The Awards anspand Top Books - Награды и премии, Complete award winners listing,assets://opds/rating.png;" //
+            "https://www.smashwords.com/atom,Smashwords,Online Catalog,assets://opds/smashwords.png;" //
+            //"http://samlib.ru,Журнал Самиздат (samlib.ru),Cовременная литература при библиотеке Мошкова,assets://opds/web.png;" + //
+            //SamlibOPDS.ROOT_AWARDS + ",Usefull links: The Awards anspand Top Books - Награды и премии, Complete award winners listing,assets://opds/rating.png;" //
             // end
             ;
     // end
@@ -197,12 +197,12 @@ public class AppState {
     public static final String SKIP_TTS_CHARS = "[]()?!\"«»*’”“—–−-/";
     public static final String TTS_PUNCUATIONS = ".;:!?";
 
-    public final static String DEFAULTS_TABS_ORDER = "0#1,1#1,2#1,3#1,4#1,5#1,6#0,7#0";
+    public final static String DEFAULTS_TABS_ORDER = "0#1,1#1,2#1,3#1,4#1,5#1,6#1,7#0";
     // public static String DEFAULTS_TABS_ORDER =
     // "0#1,1#1,2#1,3#1,4#1,5#1,6#0,7#1";BETA
     public String tabsOrder7 = DEFAULTS_TABS_ORDER;
 
-    public int tintColor = Color.parseColor(STYLE_COLORS.get(0));
+    public int tintColor = Color.parseColor(STYLE_COLORS.get(1));
 
     public boolean isUiTextColor = false;
     public int uiTextColor = Color.BLUE;
@@ -548,7 +548,7 @@ public class AppState {
     public boolean isLineBreaksText = false;
     public boolean isIgnoreAnnotatations = false;
     public boolean isSaveAnnotatationsAutomatically = false;
-    public boolean isShowWhatIsNewDialog = true;
+    public boolean isShowWhatIsNewDialog = false;
     public boolean isShowCloseAppDialog = true;
 
     public boolean isFirstSurname = false;
