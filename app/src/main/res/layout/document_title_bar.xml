@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-     <com.foobnix.pdf.info.view.ProgressDraw
+     <net.autogroup.pdf.info.view.ProgressDraw
             android:id="@+id/progressDraw"
             android:layout_width="match_parent"
             android:layout_height="@dimen/progress" />

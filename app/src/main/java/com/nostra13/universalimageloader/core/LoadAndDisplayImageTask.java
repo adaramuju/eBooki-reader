@@ -18,7 +18,7 @@ package com.nostra13.universalimageloader.core;
 import android.graphics.Bitmap;
 import android.os.Handler;
 
-import com.foobnix.model.AppState;
+import net.autogroup.model.AppState;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.assist.FailReason.FailType;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;

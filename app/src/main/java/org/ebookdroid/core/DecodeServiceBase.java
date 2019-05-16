@@ -7,15 +7,15 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.Pair;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.ResultResponse;
-import com.foobnix.android.utils.Safe;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.pdf.info.model.AnnotationType;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.sys.Colors;
-import com.foobnix.sys.ImageExtractor;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.ResultResponse;
+import net.autogroup.android.utils.Safe;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.pdf.info.model.AnnotationType;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.sys.Colors;
+import net.autogroup.sys.ImageExtractor;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.common.bitmaps.BitmapManager;
 import org.ebookdroid.common.bitmaps.BitmapRef;

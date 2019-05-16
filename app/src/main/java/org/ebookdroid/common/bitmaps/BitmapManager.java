@@ -5,7 +5,7 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.support.v4.util.LruCache;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import org.ebookdroid.common.settings.CoreSettings;
 import org.emdev.utils.LengthUtils;

@@ -3,7 +3,7 @@ package org.emdev.ui;
 import android.content.Intent;
 import android.view.View;
 
-import com.foobnix.ui2.AdsFragmentActivity;
+import net.autogroup.ui2.AdsFragmentActivity;
 
 import org.emdev.ui.actions.ActionController;
 import org.emdev.ui.actions.ActionEx;

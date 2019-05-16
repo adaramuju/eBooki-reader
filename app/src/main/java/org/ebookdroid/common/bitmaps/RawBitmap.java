@@ -5,11 +5,11 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.model.AppState;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.model.AppState;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
 
 import org.ebookdroid.BookType;
 

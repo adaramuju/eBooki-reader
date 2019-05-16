@@ -72,14 +72,14 @@
             android:orientation="vertical"
             android:visibility="gone">
 
-            <com.foobnix.pdf.search.view.BgClickbaleView
+            <net.autogroup.pdf.search.view.BgClickbaleView
                 android:id="@+id/lineClose"
                 android:layout_width="match_parent"
                 android:layout_height="105dip"
                 android:layout_weight="0"
                 app:text="x" />
 
-            <com.foobnix.pdf.search.view.BgClickbaleView
+            <net.autogroup.pdf.search.view.BgClickbaleView
                 android:id="@+id/lineFirst"
                 android:layout_width="match_parent"
                 android:layout_height="105dip"
@@ -96,7 +96,7 @@
             android:background="@drawable/bg_border_ltgray_dash" />
     </LinearLayout>
 
-    <com.foobnix.pdf.info.view.DrawView
+    <net.autogroup.pdf.info.view.DrawView
         android:id="@+id/drawView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -161,7 +161,7 @@
         android:layout_height="@dimen/speed_size"
         android:layout_above="@+id/bottomBar1" />
 
-    <com.foobnix.tts.TTSControlsView
+    <net.autogroup.tts.TTSControlsView
         android:id="@+id/ttsActive"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

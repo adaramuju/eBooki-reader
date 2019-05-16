@@ -3,9 +3,9 @@ package org.ebookdroid.core;
 import android.graphics.Matrix;
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppState;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppState;
 
 import org.ebookdroid.common.bitmaps.Bitmaps;
 import org.ebookdroid.common.settings.SettingsManager;

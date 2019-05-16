@@ -1,6 +1,6 @@
 package org.ebookdroid.common.settings.types;
 
-import com.foobnix.model.AppBook;
+import net.autogroup.model.AppBook;
 
 import org.ebookdroid.core.HScrollController;
 import org.ebookdroid.core.VScrollController;

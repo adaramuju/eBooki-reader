@@ -1,10 +1,10 @@
 package org.ebookdroid.droids;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.dao2.FileMeta;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.XmlParser;
-import com.foobnix.pdf.info.ExtUtils;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.dao2.FileMeta;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.XmlParser;
+import net.autogroup.pdf.info.ExtUtils;
 
 import org.ebookdroid.BookType;
 import org.ebookdroid.core.codec.CodecDocument;

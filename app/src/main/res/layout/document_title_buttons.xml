@@ -75,7 +75,7 @@
                 android:contentDescription="zoom out"
                 android:src="@drawable/glyphicons_191_circle_plus" />
 
-            <com.foobnix.pdf.info.view.UnderlineImageView
+            <net.autogroup.pdf.info.view.UnderlineImageView
                 android:id="@+id/onBC"
                 style="@style/buttonWhite"
                 android:layout_width="@dimen/wh_button"
@@ -91,7 +91,7 @@
                 android:layout_weight="0"
                 android:src="@drawable/glyphicons_232_sun" />
 
-            <com.foobnix.pdf.info.view.UnderlineImageView
+            <net.autogroup.pdf.info.view.UnderlineImageView
                 android:id="@+id/crop"
                 style="@style/buttonWhite"
                 android:layout_width="@dimen/wh_button"
@@ -99,7 +99,7 @@
                 android:layout_weight="0"
                 android:src="@drawable/glyphicons_94_crop" />
 
-            <com.foobnix.pdf.info.view.UnderlineImageView
+            <net.autogroup.pdf.info.view.UnderlineImageView
                 android:id="@+id/cut"
                 style="@style/buttonWhite"
                 android:layout_width="@dimen/wh_button"

@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.PointF;
 import android.graphics.RectF;
 
-import com.foobnix.pdf.info.model.AnnotationType;
+import net.autogroup.pdf.info.model.AnnotationType;
 
 import org.ebookdroid.common.bitmaps.BitmapRef;
 import org.ebookdroid.droids.mupdf.codec.TextWord;

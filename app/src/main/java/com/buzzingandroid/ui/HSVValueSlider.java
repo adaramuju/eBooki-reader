@@ -11,7 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.buzzingandroid.ui.HSVColorPickerDialog.OnColorSelectedListener;
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 public class HSVValueSlider extends View {
 

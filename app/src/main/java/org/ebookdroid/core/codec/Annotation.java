@@ -2,8 +2,8 @@ package org.ebookdroid.core.codec;
 
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.pdf.info.model.AnnotationType;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.pdf.info.model.AnnotationType;
 
 public class Annotation extends RectF {
 

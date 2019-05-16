@@ -2,9 +2,9 @@ package org.ebookdroid.droids.djvu.codec;
 
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.core.codec.AbstractCodecDocument;
 import org.ebookdroid.core.codec.CodecPageInfo;

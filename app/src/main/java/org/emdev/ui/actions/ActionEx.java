@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.TextView;
 
-import com.foobnix.pdf.info.R;
+import net.autogroup.pdf.info.R;
 
 import org.emdev.utils.LengthUtils;
 import org.emdev.utils.collections.SparseArrayEx;

@@ -8,7 +8,7 @@ import android.view.SurfaceHolder;
 import android.view.View;
 import android.widget.Scroller;
 
-import com.foobnix.pdf.search.activity.msg.MessagePageXY;
+import net.autogroup.pdf.search.activity.msg.MessagePageXY;
 
 import org.ebookdroid.common.settings.CoreSettings;
 import org.ebookdroid.common.settings.types.PageAlign;

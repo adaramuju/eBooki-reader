@@ -3,7 +3,7 @@ package org.ebookdroid.ui.viewer;
 import android.app.Activity;
 import android.content.Context;
 
-import com.foobnix.sys.VerticalModeController;
+import net.autogroup.sys.VerticalModeController;
 
 import org.ebookdroid.core.DecodeService;
 import org.ebookdroid.core.ViewState;

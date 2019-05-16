@@ -3,9 +3,9 @@ package org.ebookdroid.ui.viewer.stubs;
 import android.app.Activity;
 import android.content.Context;
 
-import com.foobnix.sys.VerticalModeController;
+import net.autogroup.sys.VerticalModeController;
 
-import org.ebookdroid.LibreraApp;
+import org.ebookdroid.EBookiApp;
 import org.ebookdroid.core.DecodeService;
 import org.ebookdroid.core.ViewState;
 import org.ebookdroid.core.models.DocumentModel;
@@ -32,7 +32,7 @@ public class ActivityControllerStub extends ActionController<VerticalViewActivit
 
     @Override
     public Context getContext() {
-        return LibreraApp.context;
+        return EBookiApp.context;
     }
 
     @Override

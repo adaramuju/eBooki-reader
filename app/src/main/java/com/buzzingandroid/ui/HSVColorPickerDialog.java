@@ -11,10 +11,10 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.foobnix.android.utils.Dips;
-import com.foobnix.model.AppState;
-import com.foobnix.pdf.info.R;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
+import net.autogroup.android.utils.Dips;
+import net.autogroup.model.AppState;
+import net.autogroup.pdf.info.R;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
 
 public class HSVColorPickerDialog extends AlertDialog {
 

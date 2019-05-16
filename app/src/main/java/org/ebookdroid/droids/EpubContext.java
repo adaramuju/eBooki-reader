@@ -1,13 +1,13 @@
 package org.ebookdroid.droids;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.EpubExtractor;
-import com.foobnix.model.AppState;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.JsonHelper;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.EpubExtractor;
+import net.autogroup.model.AppState;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.JsonHelper;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.core.codec.CodecDocument;
 import org.ebookdroid.droids.mupdf.codec.MuPdfDocument;

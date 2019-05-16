@@ -6,15 +6,15 @@ import android.graphics.RectF;
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppState;
-import com.foobnix.pdf.info.R;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.pdf.info.view.AlertDialogs;
-import com.foobnix.sys.AdvGuestureDetector;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppState;
+import net.autogroup.pdf.info.R;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.pdf.info.view.AlertDialogs;
+import net.autogroup.sys.AdvGuestureDetector;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.common.settings.SettingsManager;
 import org.ebookdroid.common.settings.types.DocumentViewMode;

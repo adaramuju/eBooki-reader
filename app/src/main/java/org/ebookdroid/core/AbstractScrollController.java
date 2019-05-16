@@ -3,8 +3,8 @@ package org.ebookdroid.core;
 import android.graphics.Rect;
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.model.AppBook;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.model.AppBook;
 
 import org.ebookdroid.common.settings.SettingsManager;
 import org.ebookdroid.common.settings.types.DocumentViewMode;

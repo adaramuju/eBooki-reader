@@ -1,13 +1,13 @@
 package org.ebookdroid.core.models;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.dao2.FileMeta;
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppState;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.ExtUtils;
-import com.foobnix.sys.TempHolder;
-import com.foobnix.ui2.AppDB;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.dao2.FileMeta;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppState;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.ExtUtils;
+import net.autogroup.sys.TempHolder;
+import net.autogroup.ui2.AppDB;
 
 import org.ebookdroid.BookType;
 import org.ebookdroid.common.bitmaps.BitmapManager;

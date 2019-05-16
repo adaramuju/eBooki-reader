@@ -1,8 +1,8 @@
 package org.ebookdroid.common.cache;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.model.AppState;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.model.AppState;
 
 import org.ebookdroid.core.codec.CodecPageInfo;
 import org.emdev.utils.StringUtils;

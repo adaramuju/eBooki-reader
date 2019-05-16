@@ -383,7 +383,7 @@
    <string name="banner_slogan_PDF_READER">De meest handige "PDF Reader" voor het lezen van elektronische documenten</string>
    <string name="books">Boeken</string>
    <string name="reading_out_loud">Hardop lezen</string>
-   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">Librera PRO (geen advertenties) Leidende boeklezer en PDF</string>
+   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">EBooki PRO (geen advertenties) Leidende boeklezer en PDF</string>
    <string name="custom_text">Aangepaste tekst</string>
    <string name="cd_search_books_in_the_library">Zoek boeken in de bibliotheek</string>
    <string name="cd_clear_search_reasult">Verwijder zoekresultaat</string>
@@ -473,7 +473,7 @@
    <string name="cloud_not_connected">Cloud niet verbonden</string>
    <string name="cloud_sync_folder">Cloud sync-map</string>
    <string name="clouds">Wolken</string>
-   <string name="librera_cloud">Librera cloud</string>
+   <string name="librera_cloud">EBooki cloud</string>
    <string name="hide_search_bar">Zoekbalk verbergen</string>
    <string name="show_search_bar">Toon zoekbalk</string>
    <string name="never">Nooit</string>

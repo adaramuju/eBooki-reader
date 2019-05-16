@@ -9,14 +9,14 @@ import android.text.Layout.Alignment;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 
-import com.foobnix.android.utils.Dips;
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.ext.EbookMeta;
-import com.foobnix.model.AppState;
-import com.foobnix.pdf.info.IMG;
-import com.foobnix.pdf.info.TintUtil;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
+import net.autogroup.android.utils.Dips;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.ext.EbookMeta;
+import net.autogroup.model.AppState;
+import net.autogroup.pdf.info.IMG;
+import net.autogroup.pdf.info.TintUtil;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

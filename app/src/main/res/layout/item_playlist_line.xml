@@ -16,7 +16,7 @@
         android:orientation="horizontal"
         android:padding="4dip" >
 
-        <com.foobnix.pdf.info.view.UnderlineImageView
+        <net.autogroup.pdf.info.view.UnderlineImageView
             android:id="@+id/image1"
             android:layout_width="80dip"
             android:layout_height="120dip"

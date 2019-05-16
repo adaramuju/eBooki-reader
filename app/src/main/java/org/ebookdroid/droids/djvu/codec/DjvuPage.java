@@ -6,13 +6,13 @@ import android.graphics.Bitmap;
 import android.graphics.PointF;
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.pdf.info.model.AnnotationType;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.pdf.info.model.AnnotationType;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
+import net.autogroup.sys.TempHolder;
 
-import org.ebookdroid.LibreraApp;
+import org.ebookdroid.EBookiApp;
 import org.ebookdroid.common.bitmaps.BitmapManager;
 import org.ebookdroid.common.bitmaps.BitmapRef;
 import org.ebookdroid.common.settings.CoreSettings;
@@ -59,7 +59,7 @@ public class DjvuPage extends AbstractCodecPage {
             h = getHeight(pageHandle);
             LOG.d("DjvuPage-create", count, w, h);
         }
-        sp = LibreraApp.context.getSharedPreferences("djvu", Context.MODE_PRIVATE);
+        sp = EBookiApp.context.getSharedPreferences("djvu", Context.MODE_PRIVATE);
         containsErrors = sp.contains("" + filename.hashCode());
 
     }

@@ -1,6 +1,6 @@
 package org.ebookdroid.common.settings.listeners;
 
-import com.foobnix.model.AppBook;
+import net.autogroup.model.AppBook;
 
 public interface IBookSettingsChangeListener {
 

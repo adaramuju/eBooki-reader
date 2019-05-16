@@ -21,8 +21,8 @@ import android.graphics.BitmapFactory.Options;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.sys.InputStreamBitmap;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.sys.InputStreamBitmap;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.assist.ImageSize;
 import com.nostra13.universalimageloader.core.download.ImageDownloader.Scheme;

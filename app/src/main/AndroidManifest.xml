@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.foobnix.pdf.info"
+    package="net.autogroup.pdf.info"
     android:installLocation="auto"
     android:versionCode="941"
     android:versionName="7.12.87">
@@ -17,7 +17,7 @@
 
 
     <application
-        android:name="org.ebookdroid.LibreraApp"
+        android:name="org.ebookdroid.EBookiApp"
         android:icon="${appIcon}"
         android:label="${appName}"
         android:largeHeap="true"
@@ -50,7 +50,7 @@
         </provider>
 
         <activity
-            android:name="com.foobnix.zipmanager.ZipActivity"
+            android:name="net.autogroup.zipmanager.ZipActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustPan">
@@ -70,7 +70,7 @@
                 <data android:mimeType="application/zip" />
             </intent-filter>
         </activity>
-        <activity android:name="com.foobnix.zipmanager.SendReceiveActivity">
+        <activity android:name="net.autogroup.zipmanager.SendReceiveActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
 
@@ -81,7 +81,7 @@
         </activity>
 
         <activity
-            android:name="com.foobnix.OpenerActivity"
+            android:name="net.autogroup.OpenerActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:launchMode="singleTask"
             android:windowSoftInputMode="adjustPan">
@@ -169,7 +169,7 @@
 
 
         <activity
-            android:name="com.foobnix.pdf.search.activity.HorizontalViewActivity"
+            android:name="net.autogroup.pdf.search.activity.HorizontalViewActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTask"
@@ -189,10 +189,10 @@
         </activity>
 
         <service
-            android:name="com.foobnix.ui2.BooksService"
+            android:name="net.autogroup.ui2.BooksService"
             android:exported="false" />
         <service
-            android:name="com.foobnix.tts.TTSService"
+            android:name="net.autogroup.tts.TTSService"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -207,7 +207,7 @@
         </receiver>
 
         <activity
-            android:name="com.foobnix.tts.TTSActivity"
+            android:name="net.autogroup.tts.TTSActivity"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:launchMode="singleTask">
             <intent-filter>
@@ -218,7 +218,7 @@
 
 
         <activity
-            android:name="com.foobnix.ui2.CloudrailActivity"
+            android:name="net.autogroup.ui2.CloudrailActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -234,7 +234,7 @@
 
 
         <activity
-            android:name="com.foobnix.sys.TestActivity"
+            android:name="net.autogroup.sys.TestActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN1" />
@@ -243,7 +243,7 @@
         </activity>
 
         <activity
-            android:name="com.foobnix.ui2.MainTabs2"
+            android:name="net.autogroup.ui2.MainTabs2"
             android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTop"
@@ -277,7 +277,7 @@
         </activity>
 
         <receiver
-            android:name=".widget.RecentBooksWidget"
+            android:name="net.autogroup.pdf.info.widget.RecentBooksWidget"
             android:exported="false"
             android:label="${appName}">
             <intent-filter>
@@ -293,7 +293,7 @@
         </receiver>
 
         <service
-            android:name=".widget.StackGridWidgetService"
+            android:name="net.autogroup.pdf.info.widget.StackGridWidgetService"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
     </application>

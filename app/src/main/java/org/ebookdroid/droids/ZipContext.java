@@ -2,9 +2,9 @@ package org.ebookdroid.droids;
 
 import android.support.v4.util.Pair;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.CacheZipUtils.CacheDir;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.CacheZipUtils.CacheDir;
 
 import org.ebookdroid.BookType;
 import org.ebookdroid.core.codec.CodecContext;

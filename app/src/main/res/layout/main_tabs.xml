@@ -39,14 +39,14 @@
                         android:src="@drawable/glyphicons_517_menu_hamburger"
                         android:tint="@color/white" />
 
-                    <com.foobnix.pdf.SlidingTabLayout
+                    <net.autogroup.pdf.SlidingTabLayout
                         android:id="@+id/slidingTabs1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"
                         android:background="#3949ab"
                         android:elevation="2dip"
-                        android:visibility="gone"></com.foobnix.pdf.SlidingTabLayout>
+                        android:visibility="gone"></net.autogroup.pdf.SlidingTabLayout>
 
 
                 </LinearLayout>
@@ -58,14 +58,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
-                <com.foobnix.pdf.SlidingTabLayout
+                <net.autogroup.pdf.SlidingTabLayout
                     android:id="@+id/slidingTabs2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
                     android:background="#3949ab"
                     android:elevation="2dip"
-                    android:visibility="gone"></com.foobnix.pdf.SlidingTabLayout>
+                    android:visibility="gone"></net.autogroup.pdf.SlidingTabLayout>
 
             </LinearLayout>
 

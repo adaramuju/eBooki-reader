@@ -68,29 +68,29 @@
                 android:tint="@color/lt_grey" />
         </LinearLayout>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/seekBarSpeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             myseek:text="@string/speed1" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/seekBarPitch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             myseek:text="@string/pitch1" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/seekVolume"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             myseek:text="@string/sound_volume" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
         <TextView
             android:id="@+id/restore_defaults"
@@ -106,7 +106,7 @@
             android:layout_marginTop="2dip"
             android:background="@color/lt_grey_alpha" />
 
-        <com.foobnix.tts.TTSControlsView
+        <net.autogroup.tts.TTSControlsView
             android:id="@+id/ttsActive"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

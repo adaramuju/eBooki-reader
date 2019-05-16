@@ -1,6 +1,6 @@
 package com;
 
-import com.foobnix.sync.GSync;
+import net.autogroup.sync.GSync;
 
 import org.junit.Test;
 

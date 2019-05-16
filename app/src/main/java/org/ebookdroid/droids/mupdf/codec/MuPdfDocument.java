@@ -2,12 +2,12 @@ package org.ebookdroid.droids.mupdf.codec;
 
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.Dips;
-import com.foobnix.android.utils.LOG;
-import com.foobnix.model.AppState;
-import com.foobnix.pdf.info.ExtUtils;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.Dips;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.model.AppState;
+import net.autogroup.pdf.info.ExtUtils;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.core.codec.AbstractCodecDocument;
 import org.ebookdroid.core.codec.CodecPage;

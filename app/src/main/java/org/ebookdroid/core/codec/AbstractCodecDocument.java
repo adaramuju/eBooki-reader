@@ -2,7 +2,7 @@ package org.ebookdroid.core.codec;
 
 import android.graphics.Bitmap;
 
-import com.foobnix.sys.TempHolder;
+import net.autogroup.sys.TempHolder;
 
 import java.util.ArrayList;
 import java.util.Collections;

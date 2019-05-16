@@ -66,8 +66,8 @@ android {
             applicationId "net.autogroup.ebooki"
             manifestPlaceholders = [
                     appName       : "Beta " + versionNumber,
-                    appIcon       : "@mipmap/icon_pdf_reader",
-                    appRoundIcon  : "@mipmap/icon_pdf_reader",
+                    appIcon       : "@mipmap/ic_launcher",
+                    appRoundIcon  : "@mipmap/ic_launcher",
                     appGdriveKey  : "",
                     admobAppId    : "ca-app-pub-8347903083053959~8769894873",
                     admobBannerId : "ca-app-pub-8347903083053959/4166397275",
@@ -81,8 +81,8 @@ android {
             applicationId "net.autogroup.ebooki"
             manifestPlaceholders = [
                     appName     : "EBooki",
-                    appIcon     : "@mipmap/icon_pdf_reader",
-                    appRoundIcon: "@mipmap/icon_pdf_reader",
+                    appIcon     : "@mipmap/ic_launcher",
+                    appRoundIcon: "@mipmap/ic_launcher",
                     appGdriveKey  : "",
                     admobAppId    : "ca-app-pub-8347903083053959~8769894873",
                     admobBannerId : "ca-app-pub-8347903083053959/4166397275",
@@ -95,9 +95,9 @@ android {
             dimension "version"
             applicationId "net.autogroup.ebooki.pro"
             manifestPlaceholders = [
-                    appName     : "Librera PRO",
-                    appIcon     : "@mipmap/icon_pdf_pro",
-                    appRoundIcon: "@mipmap/icon_pdf_pro",
+                    appName     : "EBooki PRO",
+                    appIcon     : "@mipmap/ic_launcher",
+                    appRoundIcon: "@mipmap/ic_launcher",
                     appGdriveKey  : "",
                     admobAppId    : "",
                     admobBannerId : "",

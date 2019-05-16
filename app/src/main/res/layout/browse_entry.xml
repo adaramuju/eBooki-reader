@@ -17,7 +17,7 @@
         android:orientation="horizontal"
         android:padding="4dip" >
 
-        <com.foobnix.pdf.info.view.ScaledImageView
+        <net.autogroup.pdf.info.view.ScaledImageView
             android:id="@+id/image"
             android:layout_width="42dip"
             android:layout_height="wrap_content"

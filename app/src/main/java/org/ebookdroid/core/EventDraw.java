@@ -9,15 +9,15 @@ import android.graphics.Paint.Style;
 import android.graphics.RectF;
 import android.text.TextPaint;
 
-import com.foobnix.android.utils.Dips;
-import com.foobnix.model.AppState;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.R;
-import com.foobnix.pdf.info.TintUtil;
-import com.foobnix.pdf.info.model.BookCSS;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
+import net.autogroup.android.utils.Dips;
+import net.autogroup.model.AppState;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.R;
+import net.autogroup.pdf.info.TintUtil;
+import net.autogroup.pdf.info.model.BookCSS;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
 
-import org.ebookdroid.LibreraApp;
+import org.ebookdroid.EBookiApp;
 import org.ebookdroid.core.codec.PageLink;
 import org.ebookdroid.ui.viewer.IActivityController;
 import org.emdev.utils.LengthUtils;
@@ -201,7 +201,7 @@ public class EventDraw implements IEvent {
         textPaint.setTextSize(Dips.spToPx(16));
         textPaint.setColor(MagicHelper.getTextColor());
 
-        final String text = LibreraApp.context.getString(R.string.text_page) + " " + (page.index.viewIndex + 1);
+        final String text = EBookiApp.context.getString(R.string.text_page) + " " + (page.index.viewIndex + 1);
         canvas.drawText(text, fixedPageBounds.centerX(), fixedPageBounds.centerY(), textPaint);
 
     }

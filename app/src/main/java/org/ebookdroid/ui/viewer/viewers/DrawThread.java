@@ -3,7 +3,7 @@ package org.ebookdroid.ui.viewer.viewers;
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import org.ebookdroid.core.EventPool;
 import org.ebookdroid.core.ViewState;

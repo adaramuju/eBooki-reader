@@ -5,8 +5,8 @@ import android.graphics.PixelFormat;
 import android.graphics.PointF;
 import android.util.Pair;
 
-import com.foobnix.android.utils.ResultResponse;
-import com.foobnix.pdf.info.model.AnnotationType;
+import net.autogroup.android.utils.ResultResponse;
+import net.autogroup.pdf.info.model.AnnotationType;
 
 import org.ebookdroid.core.codec.Annotation;
 import org.ebookdroid.core.codec.CodecDocument;
@@ -128,7 +128,7 @@ public class DecodeServiceStub implements DecodeService {
 	 * @see org.ebookdroid.core.DecodeService#getOutline()
 	 */
 	@Override
-	public void getOutline(com.foobnix.android.utils.ResultResponse<java.util.List<OutlineLink>> response) {
+	public void getOutline(ResultResponse<List<OutlineLink>> response) {
 
 	};
 

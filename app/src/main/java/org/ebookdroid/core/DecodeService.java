@@ -6,8 +6,8 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.Pair;
 
-import com.foobnix.android.utils.ResultResponse;
-import com.foobnix.pdf.info.model.AnnotationType;
+import net.autogroup.android.utils.ResultResponse;
+import net.autogroup.pdf.info.model.AnnotationType;
 
 import org.ebookdroid.common.bitmaps.BitmapRef;
 import org.ebookdroid.core.codec.Annotation;

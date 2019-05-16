@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.foobnix.pdf.search.activity.PageImaveView
+    <net.autogroup.pdf.search.activity.PageImaveView
         android:id="@+id/myImage1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

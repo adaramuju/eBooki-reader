@@ -3,7 +3,7 @@ package org.ebookdroid.ui.viewer.viewers;
 import android.app.Activity;
 import android.view.View;
 
-import com.foobnix.pdf.info.wrapper.DocumentController;
+import net.autogroup.pdf.info.wrapper.DocumentController;
 
 import org.ebookdroid.common.settings.CoreSettings;
 import org.emdev.common.android.AndroidVersion;

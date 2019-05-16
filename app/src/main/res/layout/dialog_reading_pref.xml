@@ -44,14 +44,14 @@
                 android:tint="@color/tint_gray" />
         </LinearLayout>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/fontWeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:visibility="gone"
             myseek:text="Weight" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -164,37 +164,37 @@
             android:layout_marginTop="2dip"
             android:background="@color/lt_grey_alpha" />
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/lineHeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/line_spacing" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/paragraphHeight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/paragraph_spacing" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/fontParagraph"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/indent" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/emptyLine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/empty_line" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
         <View
             android:layout_width="match_parent"
@@ -217,37 +217,37 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/marginTop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/top" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/marginBottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/bottom" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/marginLeft"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/left" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/marginRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/right" >
-        </com.foobnix.pdf.info.view.CustomSeek>
+        </net.autogroup.pdf.info.view.CustomSeek>
 
         <View
             android:layout_width="match_parent"
@@ -255,14 +255,14 @@
             android:layout_marginTop="2dip"
             android:background="@color/lt_grey_alpha" />
 
-        <com.foobnix.pdf.info.view.CustomColorView
+        <net.autogroup.pdf.info.view.CustomColorView
             android:id="@+id/linkColorDay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             myseek:text="@string/links_color_day" />
 
-        <com.foobnix.pdf.info.view.CustomColorView
+        <net.autogroup.pdf.info.view.CustomColorView
             android:id="@+id/linkColorNight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

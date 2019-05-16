@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.Bitmap.CompressFormat;
 import android.graphics.BitmapFactory;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;

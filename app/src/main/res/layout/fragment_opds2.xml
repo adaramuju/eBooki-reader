@@ -113,12 +113,12 @@
         android:layout_height="match_parent"
         android:layout_weight="1" >
 
-        <com.foobnix.ui2.fast.FastScrollRecyclerView
+        <net.autogroup.ui2.fast.FastScrollRecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="4dip" >
-        </com.foobnix.ui2.fast.FastScrollRecyclerView>
+        </net.autogroup.ui2.fast.FastScrollRecyclerView>
     </FrameLayout>
 
     <TextView

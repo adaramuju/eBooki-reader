@@ -629,11 +629,11 @@
                 android:textSize="12sp" />
         </LinearLayout>
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/customBrightness"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"></com.foobnix.pdf.info.view.CustomSeek>
+            android:layout_weight="1"></net.autogroup.pdf.info.view.CustomSeek>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -1021,11 +1021,11 @@
             android:text="@string/cover_image_size"
             android:textStyle="bold" />
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/coverSmallSize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            myseek:text="@string/list"></com.foobnix.pdf.info.view.CustomSeek>
+            myseek:text="@string/list"></net.autogroup.pdf.info.view.CustomSeek>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -1033,12 +1033,12 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.foobnix.pdf.info.view.CustomSeek
+            <net.autogroup.pdf.info.view.CustomSeek
                 android:id="@+id/coverBigSize"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                myseek:text="@string/grid"></com.foobnix.pdf.info.view.CustomSeek>
+                myseek:text="@string/grid"></net.autogroup.pdf.info.view.CustomSeek>
         </LinearLayout>
 
         <LinearLayout

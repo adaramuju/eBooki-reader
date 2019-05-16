@@ -1,6 +1,6 @@
 package at.stefl.opendocument.java.translator;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

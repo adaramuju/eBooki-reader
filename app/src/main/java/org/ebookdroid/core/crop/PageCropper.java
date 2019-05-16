@@ -5,10 +5,10 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.RectF;
 
-import com.foobnix.android.utils.Dips;
-import com.foobnix.android.utils.LOG;
-import com.foobnix.model.AppState;
-import com.foobnix.pdf.info.wrapper.MagicHelper;
+import net.autogroup.android.utils.Dips;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.model.AppState;
+import net.autogroup.pdf.info.wrapper.MagicHelper;
 
 public class PageCropper {
     public static final int MAX_HEIGHT = Dips.DP_300;

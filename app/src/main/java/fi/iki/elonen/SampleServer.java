@@ -11,11 +11,11 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.dao2.FileMeta;
-import com.foobnix.pdf.info.IMG;
-import com.foobnix.sys.ImageExtractor;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.dao2.FileMeta;
+import net.autogroup.pdf.info.IMG;
+import net.autogroup.sys.ImageExtractor;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -120,7 +120,7 @@ public class SampleServer extends NanoHTTPD {
                 "            }\n" + //
                 "    </script>";//
 
-        String msg = "<html><body>" + script1 + "<h1>Librera server</h1>";
+        String msg = "<html><body>" + script1 + "<h1>EBooki server</h1>";
 
         msg += "<a href='#' onclick=\"reload();\">Reload</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href='?screenshot=0,0' target='blank' >Download</a><br/> ";
 

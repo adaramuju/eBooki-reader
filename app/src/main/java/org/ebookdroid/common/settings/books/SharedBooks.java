@@ -1,14 +1,14 @@
 package org.ebookdroid.common.settings.books;
 
-import com.foobnix.android.utils.IO;
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.Objects;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.dao2.FileMeta;
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppProfile;
-import com.foobnix.pdf.info.ExtUtils;
-import com.foobnix.ui2.AppDB;
+import net.autogroup.android.utils.IO;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.Objects;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.dao2.FileMeta;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppProfile;
+import net.autogroup.pdf.info.ExtUtils;
+import net.autogroup.ui2.AppDB;
 
 import org.json.JSONObject;
 

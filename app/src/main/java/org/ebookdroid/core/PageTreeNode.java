@@ -6,8 +6,8 @@ import android.graphics.PointF;
 import android.graphics.Rect;
 import android.graphics.RectF;
 
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppState;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppState;
 
 import org.ebookdroid.common.bitmaps.BitmapManager;
 import org.ebookdroid.common.bitmaps.BitmapRef;

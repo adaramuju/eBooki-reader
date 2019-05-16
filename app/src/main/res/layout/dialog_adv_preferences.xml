@@ -166,12 +166,12 @@
         </LinearLayout>
 
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/seekWheelSpeed"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            myseek:text="@string/scroll_speed"></com.foobnix.pdf.info.view.CustomSeek>
+            myseek:text="@string/scroll_speed"></net.autogroup.pdf.info.view.CustomSeek>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -422,22 +422,22 @@
             android:layout_height="wrap_content"
             android:text="@string/enable_vibration_for_some_actions" />
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/decodingThreadPriority"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:visibility="gone"
-            myseek:text="Decoding Thread Priority"></com.foobnix.pdf.info.view.CustomSeek>
+            myseek:text="Decoding Thread Priority"></net.autogroup.pdf.info.view.CustomSeek>
 
 
-        <com.foobnix.pdf.info.view.CustomSeek
+        <net.autogroup.pdf.info.view.CustomSeek
             android:id="@+id/drawThreadPriority"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:visibility="gone"
-            myseek:text="Draw Thread Priority"></com.foobnix.pdf.info.view.CustomSeek>
+            myseek:text="Draw Thread Priority"></net.autogroup.pdf.info.view.CustomSeek>
 
     </LinearLayout>
 

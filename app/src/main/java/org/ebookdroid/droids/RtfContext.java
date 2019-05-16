@@ -1,10 +1,10 @@
 package org.ebookdroid.droids;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.RtfExtract;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.model.BookCSS;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.RtfExtract;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.model.BookCSS;
 
 import org.ebookdroid.core.codec.CodecDocument;
 import org.ebookdroid.droids.mupdf.codec.MuPdfDocument;

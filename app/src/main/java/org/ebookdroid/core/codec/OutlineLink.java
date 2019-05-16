@@ -1,6 +1,6 @@
 package org.ebookdroid.core.codec;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 public class OutlineLink implements CharSequence {
 

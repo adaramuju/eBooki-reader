@@ -1,6 +1,6 @@
 package org.ebookdroid.droids.djvu.codec;
 
-import com.foobnix.sys.TempHolder;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.core.codec.AbstractCodecContext;
 

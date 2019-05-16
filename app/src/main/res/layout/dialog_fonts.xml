@@ -349,7 +349,7 @@
                 android:text="1.2 em" />
         </LinearLayout>
 
-        <com.foobnix.pdf.info.view.CustomColorView
+        <net.autogroup.pdf.info.view.CustomColorView
             android:id="@+id/capitalLetterColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

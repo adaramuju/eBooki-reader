@@ -1,6 +1,6 @@
 package at.stefl.opendocument.java.translator.style;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import at.stefl.opendocument.java.css.StyleProperty;
 import at.stefl.opendocument.java.translator.style.property.PropertyTranslator;

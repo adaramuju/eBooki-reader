@@ -383,7 +383,7 @@
    <string name="banner_slogan_PDF_READER">Kätevin "PDF Reader" lukemiseen sähköisiä asiakirjoja</string>
    <string name="books">Kirjat</string>
    <string name="reading_out_loud">Lukeminen ääneen</string>
-   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">Librera PRO (ei mainoksia) Johtava kirjan lukija ja PDF</string>
+   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">EBooki PRO (ei mainoksia) Johtava kirjan lukija ja PDF</string>
    <string name="custom_text">Mukautettu teksti</string>
    <string name="cd_search_books_in_the_library">Hae kirjoja kirjastosta</string>
    <string name="cd_clear_search_reasult">Tyhjennä haku uudelleen</string>
@@ -473,7 +473,7 @@
    <string name="cloud_not_connected">Pilvi ei ole kytkettynä</string>
    <string name="cloud_sync_folder">Cloud sync -kansio</string>
    <string name="clouds">Pilvet</string>
-   <string name="librera_cloud">Librera-pilvi</string>
+   <string name="librera_cloud">EBooki-pilvi</string>
    <string name="hide_search_bar">Piilota hakupalkki</string>
    <string name="show_search_bar">Näytä hakupalkki</string>
    <string name="never">Ei koskaan</string>

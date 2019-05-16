@@ -9,7 +9,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Region;
 
-import com.foobnix.android.utils.LOG;
+import net.autogroup.android.utils.LOG;
 
 import org.ebookdroid.core.PagePaint;
 import org.emdev.utils.LengthUtils;

@@ -1,9 +1,9 @@
 package org.ebookdroid.droids;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.FooterNote;
-import com.foobnix.ext.HtmlExtractor;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.FooterNote;
+import net.autogroup.ext.HtmlExtractor;
 
 import org.ebookdroid.core.codec.CodecDocument;
 import org.ebookdroid.droids.mupdf.codec.MuPdfDocument;

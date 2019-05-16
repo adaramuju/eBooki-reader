@@ -1,7 +1,7 @@
 package org.ebookdroid.common.settings;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.model.AppBook;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.model.AppBook;
 
 import org.ebookdroid.common.settings.books.SharedBooks;
 import org.ebookdroid.common.settings.listeners.IBookSettingsChangeListener;

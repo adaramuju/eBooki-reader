@@ -383,7 +383,7 @@
    <string name="banner_slogan_PDF_READER">Le plus pratique "PDF Reader" pour lire les documents électroniques</string>
    <string name="books">Livres</string>
    <string name="reading_out_loud">Lecture à haute voix</string>
-   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">Librera PRO (aucune publicité) Lecteur de livres et PDF</string>
+   <string name="librera_pro_no_ads_leading_book_reader_and_pdf">EBooki PRO (aucune publicité) Lecteur de livres et PDF</string>
    <string name="custom_text">Texte personnalisé</string>
    <string name="cd_search_books_in_the_library">Rechercher des livres dans la bibliothèque</string>
    <string name="cd_clear_search_reasult">Recherche claire reasult</string>
@@ -473,7 +473,7 @@
    <string name="cloud_not_connected">Cloud non connecté</string>
    <string name="cloud_sync_folder">Dossier de synchronisation du cloud</string>
    <string name="clouds">Des nuages</string>
-   <string name="librera_cloud">Librera cloud</string>
+   <string name="librera_cloud">EBooki cloud</string>
    <string name="hide_search_bar">Masquer la barre de recherche</string>
    <string name="show_search_bar">Afficher la barre de recherche</string>
    <string name="never">Jamais</string>

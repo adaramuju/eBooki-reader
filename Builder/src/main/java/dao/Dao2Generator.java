@@ -10,7 +10,7 @@ public class Dao2Generator {
 
     public static void main(String[] args) throws IOException, Exception {
 
-        Schema schema = new Schema(8, "com.foobnix.dao2");
+        Schema schema = new Schema(8, "com.autogroup.dao2");
 
         Entity note = schema.addEntity("FileMeta");
 

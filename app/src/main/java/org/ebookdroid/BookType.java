@@ -2,9 +2,9 @@ package org.ebookdroid;
 
 import android.content.Intent;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.android.utils.TxtUtils;
-import com.foobnix.pdf.info.AppsConfig;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.android.utils.TxtUtils;
+import net.autogroup.pdf.info.AppsConfig;
 
 import org.ebookdroid.core.codec.CodecContext;
 import org.ebookdroid.droids.CbrContext;

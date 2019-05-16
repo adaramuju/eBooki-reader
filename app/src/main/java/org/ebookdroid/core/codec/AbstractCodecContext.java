@@ -2,12 +2,12 @@ package org.ebookdroid.core.codec;
 
 import android.graphics.Bitmap;
 
-import com.foobnix.android.utils.LOG;
-import com.foobnix.ext.CacheZipUtils;
-import com.foobnix.ext.CacheZipUtils.CacheDir;
-import com.foobnix.model.AppTemp;
-import com.foobnix.pdf.info.ExtUtils;
-import com.foobnix.sys.TempHolder;
+import net.autogroup.android.utils.LOG;
+import net.autogroup.ext.CacheZipUtils;
+import net.autogroup.ext.CacheZipUtils.CacheDir;
+import net.autogroup.model.AppTemp;
+import net.autogroup.pdf.info.ExtUtils;
+import net.autogroup.sys.TempHolder;
 
 import org.ebookdroid.BookType;
 import org.ebookdroid.droids.mupdf.codec.exceptions.MuPdfPasswordException;

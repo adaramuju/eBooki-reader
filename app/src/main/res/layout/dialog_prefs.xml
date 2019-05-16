@@ -287,12 +287,12 @@
                     android:text="@string/font_size"
                     android:textStyle="bold" />
 
-                <com.foobnix.pdf.info.view.CustomSeek
+                <net.autogroup.pdf.info.view.CustomSeek
                     android:id="@+id/fontSizeSp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" >
-                </com.foobnix.pdf.info.view.CustomSeek>
+                </net.autogroup.pdf.info.view.CustomSeek>
             </LinearLayout>
         </LinearLayout>
 
@@ -403,12 +403,12 @@
                         android:text="@string/system_brightness" />
                 </LinearLayout>
 
-                <com.foobnix.pdf.info.view.CustomSeek
+                <net.autogroup.pdf.info.view.CustomSeek
                     android:id="@+id/customBrightness"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1" >
-                </com.foobnix.pdf.info.view.CustomSeek>
+                </net.autogroup.pdf.info.view.CustomSeek>
             </LinearLayout>
         </LinearLayout>
 

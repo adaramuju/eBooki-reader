@@ -3,8 +3,8 @@ package org.ebookdroid.core;
 import android.graphics.PointF;
 import android.graphics.RectF;
 
-import com.foobnix.model.AppBook;
-import com.foobnix.model.AppState;
+import net.autogroup.model.AppBook;
+import net.autogroup.model.AppState;
 
 import org.ebookdroid.common.settings.CoreSettings;
 import org.ebookdroid.common.settings.SettingsManager;

@@ -1,6 +1,6 @@
 package org.ebookdroid.core;
 
-import com.foobnix.model.AppBook;
+import net.autogroup.model.AppBook;
 
 import org.ebookdroid.core.models.DocumentModel;
 import org.json.JSONException;

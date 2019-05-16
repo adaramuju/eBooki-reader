@@ -1,8 +1,8 @@
 package com;
 
-import com.foobnix.model.MyPath;
-import com.foobnix.model.SimpleMeta;
-import com.foobnix.pdf.info.ExportConverter;
+import net.autogroup.model.MyPath;
+import net.autogroup.model.SimpleMeta;
+import net.autogroup.pdf.info.ExportConverter;
 
 import org.junit.Test;
 
